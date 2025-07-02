@@ -22,6 +22,14 @@ class ArrayDemo {
         anArray[8] = 900;
         anArray[9] = 1000;
 
+        // You can use looping to initialize the above array
+        // Another shortcut is:
+//        int[] anArray = {
+//                100, 200, 300,
+//                400, 500, 600,
+//                700, 800, 900, 1000
+//        };
+
         System.out.println("Element at index 0: "
                 + anArray[0]);
         System.out.println("Element at index 1: "
