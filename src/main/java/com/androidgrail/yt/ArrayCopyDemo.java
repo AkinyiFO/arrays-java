@@ -22,9 +22,9 @@ class ArrayCopyDemo {
 
         // public static int[]	copyOfRange(int[] original, int from, int to)
         // inclusive of int from and exclusive of int to
-        java.util.Arrays.copyOfRange(copyFrom, 2, 9);
+        String copyTo2 = java.util.Arrays.copyOfRange(copyFrom, 2, 9);
         System.out.println("\n");
-        for (String coffee : copyTo) {
+        for (String coffee : copyTo2) {
             System.out.print(coffee + " ");
         }
     }
